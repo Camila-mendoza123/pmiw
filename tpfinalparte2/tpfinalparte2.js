@@ -1,6 +1,3 @@
-//https://youtu.be/gFvcCuq4MaM
-// camila mendoza  12278/7
-
 
 let juego;
 let imgTitulo, imgInstrucciones, imgCaminos, imgTroncos;
@@ -62,4 +59,5 @@ function keyReleased() {
 function mousePressed() {//Cuando sueltas la tecla  deja de mover al personaje.
   juego.mousePresionado(mouseX, mouseY);
 }
+
 
